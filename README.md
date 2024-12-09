@@ -1,0 +1,2 @@
+# SPROJ3G2_PRX_PCB
+SPROJ3G2 PRX PCB - KiCad files
