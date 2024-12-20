@@ -5,11 +5,11 @@
 	(uuid "417501b9-115b-4782-ab10-6ae32a5cf38f")
 	(paper "A4")
 	(title_block
-		(title "SPROJ3G2 - Receiver Logic PCB")
-		(date "2024-11-11")
-		(rev "1.1")
-		(company "SDU Sonderborg")
-		(comment 1 "Author: Bence Toth")
+		(title "SPROJ3EEG2 - PRX PCB")
+		(date "2024-12-20")
+		(rev "1.3")
+		(company "SDU Sønderborg")
+		(comment 1 "Author: Bence Tóth")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
@@ -8436,16 +8436,15 @@
 		)
 		(uuid "fed2a428-cd15-4f03-bbf7-14feec16e0ea")
 	)
-	(text "Boot mode button"
+	(text "Boot button"
 		(exclude_from_sim no)
-		(at 102.87 28.194 0)
+		(at 102.362 27.686 0)
 		(effects
 			(font
 				(face "KiCad Font")
-				(size 1.84 1.84)
+				(size 2 2)
 				(thickness 0.368)
 				(bold yes)
-				(italic yes)
 			)
 		)
 		(uuid "16495b91-41a8-403c-88f3-4b3fd0b217ba")
@@ -8456,10 +8455,9 @@
 		(effects
 			(font
 				(face "KiCad Font")
-				(size 1.84 1.84)
+				(size 2 2)
 				(thickness 0.368)
 				(bold yes)
-				(italic yes)
 			)
 		)
 		(uuid "1e5477e8-2073-4902-bff0-6f3be71de909")
@@ -8481,10 +8479,9 @@
 		(effects
 			(font
 				(face "KiCad Font")
-				(size 1.84 1.84)
+				(size 2 2)
 				(thickness 0.368)
 				(bold yes)
-				(italic yes)
 			)
 		)
 		(uuid "4c664683-7ac4-4315-acda-8ba48125b131")
@@ -8495,66 +8492,61 @@
 		(effects
 			(font
 				(face "KiCad Font")
-				(size 1.84 1.84)
+				(size 2 2)
 				(thickness 0.368)
 				(bold yes)
-				(italic yes)
 			)
 		)
 		(uuid "93674d33-0c75-478b-8f55-cdefbac8dff9")
 	)
 	(text "Raspberry Pi RP2040 MCU"
 		(exclude_from_sim no)
-		(at 221.742 23.368 0)
+		(at 221.488 22.098 0)
 		(effects
 			(font
 				(face "KiCad Font")
-				(size 1.84 1.84)
+				(size 2 2)
 				(thickness 0.368)
 				(bold yes)
-				(italic yes)
 			)
 		)
 		(uuid "a188f9d8-2bcf-4082-90e0-7b3c03c8d858")
 	)
-	(text "RF24 connector"
+	(text "nRF24L01 connector"
 		(exclude_from_sim no)
 		(at 84.836 74.93 0)
 		(effects
 			(font
 				(face "KiCad Font")
-				(size 1.84 1.84)
+				(size 2 2)
 				(thickness 0.368)
 				(bold yes)
-				(italic yes)
 			)
 		)
 		(uuid "a90c5ad3-7cbb-484b-bf83-068cf1e45b6e")
 	)
-	(text "16MB SPI Flash Chip"
+	(text "2MB SPI Flash"
 		(exclude_from_sim no)
 		(at 51.816 17.272 0)
 		(effects
 			(font
 				(face "KiCad Font")
-				(size 1.84 1.84)
+				(size 2 2)
 				(thickness 0.368)
 				(bold yes)
-				(italic yes)
 			)
 		)
 		(uuid "a94d894c-46c8-4d8d-92ca-ca05522f3ec2")
 	)
 	(text "Reset button"
 		(exclude_from_sim no)
-		(at 141.224 18.288 0)
+		(at 147.32 21.082 0)
 		(effects
 			(font
 				(face "KiCad Font")
-				(size 1.84 1.84)
+				(size 2 2)
 				(thickness 0.368)
 				(bold yes)
-				(italic yes)
 			)
 		)
 		(uuid "addc0da2-3c59-43de-8484-e509835afe87")
@@ -8572,14 +8564,13 @@
 	)
 	(text "Power Supply selector"
 		(exclude_from_sim no)
-		(at 28.702 161.544 0)
+		(at 29.464 161.544 0)
 		(effects
 			(font
 				(face "KiCad Font")
-				(size 1.84 1.84)
+				(size 2 2)
 				(thickness 0.368)
 				(bold yes)
-				(italic yes)
 			)
 		)
 		(uuid "dda3d7bf-0a99-402d-9e5e-4634c0e08e64")
@@ -8590,24 +8581,22 @@
 		(effects
 			(font
 				(face "KiCad Font")
-				(size 1.84 1.84)
+				(size 2 2)
 				(thickness 0.368)
 				(bold yes)
-				(italic yes)
 			)
 		)
 		(uuid "e0a9134e-f847-4427-92dc-0aa25ca565a3")
 	)
-	(text "Crystal Oscillator"
+	(text "12MHz Crystal Oscillator"
 		(exclude_from_sim no)
 		(at 156.21 77.47 0)
 		(effects
 			(font
 				(face "KiCad Font")
-				(size 1.84 1.84)
+				(size 2 2)
 				(thickness 0.368)
 				(bold yes)
-				(italic yes)
 			)
 		)
 		(uuid "ef81f660-be03-44ad-86ef-134981d4e93e")
@@ -8618,10 +8607,9 @@
 		(effects
 			(font
 				(face "KiCad Font")
-				(size 1.84 1.84)
+				(size 2 2)
 				(thickness 0.368)
 				(bold yes)
-				(italic yes)
 			)
 		)
 		(uuid "f42d5834-e165-4bc6-9e64-b4f0674c28c3")
@@ -9952,10 +9940,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0f3654c0-7849-4144-9d0c-ba6d358c3ceb")
 		(property "Reference" "C1"
-			(at 17.78 31.7499 0)
+			(at 20.066 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9964,7 +9951,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 17.78 34.2899 0)
+			(at 20.828 35.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
